@@ -23,6 +23,7 @@ actual output → 7
 const vovelsCounter = (str) => {
       const vovels = ['a', 'e', 'i', 'o', 'u'];
       let counter = 0;
+      // Bring all letters to lower case.
       for (letter of str.toLowerCase()) {
          if (vovels.includes(letter)) {
              counter = counter + 1;
