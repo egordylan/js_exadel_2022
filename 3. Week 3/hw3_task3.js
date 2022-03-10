@@ -320,7 +320,6 @@ console.log(zoo.editWorker(0, 'Gandalf', 'The White', '8044 555 55 57'));
 console.log(zoo.showAllWorkers());
 console.log(worker1.getWorkersInfo());
 
-
 // vi. add/remove/edit animal
 const alligator = new Animal(zoo.address, 'Alligator', 'green', 3, 45,
                             'New Orlean, USA');
@@ -333,7 +332,6 @@ console.log(zoo.addAnimal(python));
 console.log(zoo.addAnimal(coala));
 console.log(zoo.showAllAnimals());
 
-
 console.log(zoo.editAnimal(2, 'Coala', 'grey', 2.3, 35, 'Australia'));
 console.log(zoo.removeAnimal('Alligator', 'green', 3, 45, 'New Orlean, USA'));
 console.log(coala.editAnimal('Coala', 'grey', 2.3, 35, 'Australia'));
@@ -342,12 +340,10 @@ console.log(zoo.showAllAnimals());
 // viii. show animal by id
 console.log(zoo.showAllAnimalsByID(1));
 
-
 // get/set weight height of animal and get get info about animals
 console.log(coala.getAnimalInfo());
 console.log(coala.setHeight(47));
 console.log(coala.setWeight(11));
-
 
 // c. Create child classes for some kinds of animals.
 // See structure in the attachment. Implement the possibility
